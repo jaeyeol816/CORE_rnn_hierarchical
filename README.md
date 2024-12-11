@@ -1,6 +1,6 @@
 # CORE
 
-This is the official PyTorch implementation for the [paper](https://arxiv.org/abs/2204.11067):
+This is the modified version of the PyTorch implementation for the [paper](https://arxiv.org/abs/2204.11067):
 > Yupeng Hou, Binbin Hu, Zhiqiang Zhang, Wayne Xin Zhao. CORE: Simple and Effective Session-based Recommendation within Consistent Representation Space. SIGIR 2022 short.
 
 ## Overview
@@ -44,6 +44,8 @@ python main.py --model MODEL --dataset DATASET
 `MODEL` can be one of
 * `trm`
 * `ave`
+* `rnn`
+* `hierarchical`
 
 ## Results
 
